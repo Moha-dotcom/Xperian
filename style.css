@@ -139,13 +139,6 @@ ul {
 }
 
 
-@media screen and (max-width: 50em) {
-
-    .menu-sec {
-        display: none;
-    }
-    
-}
 
 
 .less {
@@ -331,5 +324,65 @@ p {
 
 .lower1, .lower2, .lower3, .lower4 {
     padding-bottom: 40px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 70em) {
+
+    .menu-sec {
+        display: none;
+    }
+
+    .lower-part {
+       display: flex;
+       flex-direction: column;
+       
+    
+       
+       
+    }
+
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+       
+    
+    }
+
+
+    .left-note img {
+        width: 600px;
+    }
+
+
+    .lower1, .lower2, .lower3, .lower4 {
+        width: 370px;
+        margin: 0 auto;
+       
+    }
+
+
+    .collection-f {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+   
+
+    .setup {
+        width: 300px;
+        
+    }
+
+   
     
 }
