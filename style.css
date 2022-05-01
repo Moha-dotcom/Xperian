@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Pacifico&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Pacifico&family=Roboto:wght@100&display=swap');
+
+
+body {
+    max-width: 100%;
+   
+    
+}
+
+.h1-menu{
+    font-family: 'Pacifico', cursive;
+    font-weight:lighter;
+    
+}
+
+
+header {
+   
+    padding: 5px;
+   
+}
+
+
+li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(131, 127, 127);
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+   
+    position: relative;
+    left: 86px;
+    width: 70%;
+    
+    align-items: center;
+   
+   
+  
+    
+    gap: 4em;
+    border-bottom: 1px solid rgb(182, 173, 173);
+    box-shadow: 0px 1px 29px  rgb(235, 228, 228);
+    border-radius: 15px;
+    
+}
+
+.logo-sec {
+    margin-left: 10px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    
+}
+
+.menu-sec {
+    margin: 0 auto;
+}
+
+
+
+
+.left-menu{
+  position: absolute;
+  right: 40px;
+ 
+
+  
+  
+}
+
+
+.input {
+    margin-right: 20px;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    background: url(./icons/icons8-search-30.png) no-repeat  7px 7px;
+    align-items: center;
+    background-size: 20px;
+    border: none;
+    text-align: center;
+   
+   font-size: 17px;
+    border-radius: 15px;
+    background-color: rgb(185, 180, 180);
+   box-shadow: 1px 1px 5px black;
+   background-position-y: center;
+}
+
+
+.input::placeholder {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+
+.upload-btn {
+    padding: 12px 30px;
+    border-radius: 10px;
+    background-color: #FF6FB5;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 50em) {
+
+    .menu-sec {
+        display: none;
+    }
+    
+}
+
+
+.less {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+.v {
+    width: 420px;
+ 
+    font-size: 50px;
+
+}
+
+
+.k {
+    width: 570px;
+   
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+    width: 700px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.right-note {
+    margin: 90px;
+   
+    align-items: center;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.lower1  {
+ 
+    width: 350px;
+   
+    padding: 10px;
+    box-shadow: 0px 1px 29px  rgb(235, 228, 228);
+    border-radius: 20px;
+  
+}
+
+
+.lower1 h1 {
+    position: relative;
+    bottom: 20px;
+    padding-left: 15px;
+   
+    
+
+}
+
+.lower1 p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.lower-part {
+    margin-left: 80px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+
+   
+   
+}
+
+.lower2 {
+   
+    padding: 10px;
+    box-shadow: 0px 1px 29px  rgb(235, 228, 228);
+    border-radius: 20px;
+    padding-left: 15px;
+    
+}
+
+
+
+.arr {
+    width: 10px;
+}
+
+.aclass {
+   
+    color:#FF6FB5 ;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+
+.collection-f {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    gap: 9em;
+    margin-top: 90px;
+   
+    width: 900px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 1px 29px  rgb(235, 228, 228);
+    margin-bottom: 90px;
+}
+
+.top-left, .setup {
+    align-items: center;
+    padding: 10px;
+   
+}
+
+
+.top-left h2 {
+   font-size: 20px;
+}
+
+
+.aclass:hover{
+    color:#e4a7c4 ;
+
+}
+
+
+.type {
+    font-family: 'Pacifico', cursive;
+    font-weight:lighter;
+}
+
+
+.lower3 , .lower4 {
+    box-shadow: 0px 1px 29px  rgb(235, 228, 228);
+    border-radius: 20px;
+    padding:10px;
+    padding-left: 15px;
+   
+}
